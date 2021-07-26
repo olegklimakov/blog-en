@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ru" domain="{{ metadata.domain }}">
+{% include "layouts/head.njk" %}
+<body>
+<header>
+  {% include "layouts/navigation.njk" %}
+</header>
+<main class="main-home">
+  <article>
+    <div>
+      Привет, меня зовут Олег Климаков и в этом блоге я буду рассказывать о технологиях, путешествиях, работе и обо всем что мне интересно, чтобы не пропустить обновления подписывайтесь на мой
+      <a target="_blank" rel="noopener" href="https://t.me/klimakov_blog">
+        телеграм канал
+      </a>
+    </div>
+    {{ content | safe }}
+  </article>
+</main>
+{% include "layouts/footer.njk" %}
+</body>
+</html>
+
