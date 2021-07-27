@@ -1,23 +1,22 @@
 {
-  "title": "Навожу суету",
-  "url": "https://klimakov.me",
-  "domain": "klimakov.me",
-  "description": "Блог Климакова Олега. Фронтенд, Разработка, Работа в IT и много чего другого",
+  "title": "Klimakov Oleg Blog",
+  "url": "https://klimakov.org",
+  "domain": "klimakov.org",
+  "description": "Blog about frontend, IT, devices, traveling and about everything",
   "genre": "Insert a schema.org genre",
-  "googleAnalyticsId": "GA ID. Update me. Note, that this is not compatible with the not-yet-commonly used version 4 of Google Analytics",
   "sendWebVitals": false,
   "feed": {
-    "subtitle": "Subtitle. Update me.",
+    "subtitle": "Feed Klimakov Oleg Blog",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://klimakov.me"
+    "id": "https://klimakov.org"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
     "url": "https://update-me.com/feed/feed.json"
   },
   "author": {
-    "name": "Author Name. Update me.",
+    "name": "Klimakov Oleg",
     "twitterHandle": "update_me"
   },
   "publisher": {
