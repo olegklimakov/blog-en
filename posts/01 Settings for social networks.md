@@ -33,11 +33,13 @@ Inside `<head>`:
 Example:
 
     <html>
+      ...
       <head>
         <meta property="og:title" content="Page or website title">
         <meta property="og:description" content="Description">
         <meta property="og:image" content="{{ image | absoluteUrl(metadata.url) }}">
       </head>
+      ...
     </html>
 
 
