@@ -77,17 +77,17 @@
   "description": "{{ content | striptags | truncate(140) }}"
 }
 </script>
-    <script src="https://utteranc.es/client.js"
-            repo="olegklimakov/blog-en"
-            issue-term="pathname"
-            theme="preferred-color-scheme"
-            crossorigin="anonymous"
-            async>
-    </script>
     {% if page.url and page.url.indexOf("/posts/") > -1 %}
       <p>Опубликовано <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time></p>
     {% endif %}
   </article>
+  <script src="https://utteranc.es/client.js"
+          repo="olegklimakov/blog-en"
+          issue-term="pathname"
+          theme="preferred-color-scheme"
+          crossorigin="anonymous"
+          async>
+  </script>
 </main>
 
 {% include "layouts/footer.njk" %}

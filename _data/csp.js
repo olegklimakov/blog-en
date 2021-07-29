@@ -37,6 +37,7 @@ const CSP = {
     ["object-src", quote("none")],
     // Script from same-origin and inline-hashes.
     ["script-src", SELF, /* Replaced by csp.js plugin */ "HASHES"],
+
     // Inline CSS is allowed.
     ["style-src", quote("unsafe-inline")],
     // Images may also come from data-URIs.
@@ -45,7 +46,8 @@ const CSP = {
     // To add new rules, add new array literals here or extend those above with
     // additional allowed elements.
     // Example for allowing YouTube iframe embeds
-    // ['frame-src', 'https://www.youtube.com/embed/']
+    ["script-src-elem", SELF, quote("unsafe-inline"),  "https://utteranc.es"],
+    ['frame-src', 'https://utteranc.es']
   ]),
 };
 
