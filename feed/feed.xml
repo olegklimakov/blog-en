@@ -24,7 +24,7 @@
 Для описания вам внутри тега &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt; в html вашей страницы добавить &lt;code&gt;&amp;lt;meta content=&amp;quot;Описание вашего сайта&amp;quot; property=&amp;quot;og:description&amp;quot;&amp;gt;&lt;/code&gt;&lt;br&gt;
 Для картинки &lt;code&gt;&amp;lt;meta content=&amp;quot;ссылка на ваше изображение&amp;quot; property=&amp;quot;og:image&amp;quot;&amp;gt;&lt;/code&gt;&lt;br&gt;
 Для названия сайта &lt;code&gt;&amp;lt;meta content=&amp;quot;Название сайта&amp;quot; property=&amp;quot;og:title&amp;quot;&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;h1 id=&quot;%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC&quot;&gt;Решение проблем &lt;a class=&quot;direct-link&quot; href=&quot;#%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&quot;problem-solving&quot;&gt;Problem Solving &lt;a class=&quot;direct-link&quot; href=&quot;#problem-solving&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
 &lt;h2 id=&quot;telegram%3A&quot;&gt;Telegram: &lt;a class=&quot;direct-link&quot; href=&quot;#telegram%3A&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Бывает ситуация что данные в тегах вы добавили или обновили, а превью вашего сайта не изменилось. В такой ситуации &lt;a href=&quot;https://t.me/WebpageBot&quot;&gt;вам поможет бот&lt;/a&gt;. Отправьте ему ссылку на ваш сайт и он обновит все настройки.&lt;/p&gt;
 
