@@ -8,6 +8,10 @@ eleventyNavigation:
   published: true
 ---
 
+Hi 👋🏼, I am Oleg Klimakov.
+
+I was studying to be a nuclear physicist when I realized that it was not mine. Then I changed my specialty and received a diploma as an IT engineer
+
 I have commercial experience as Frontend Developer (Senior, Lead) with Angular, but also I am interested in backend and mobile development.
 
 I have worked in both small startups and giant IT corporations.
