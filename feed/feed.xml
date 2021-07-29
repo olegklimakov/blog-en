@@ -33,8 +33,8 @@ Inside &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt;:&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;Example:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;html&amp;gt;
+  ...
   &amp;lt;head&amp;gt;
-    ...
     &amp;lt;meta property=&amp;quot;og:title&amp;quot; content=&amp;quot;Page or website title&amp;quot;&amp;gt;
     &amp;lt;meta property=&amp;quot;og:description&amp;quot; content=&amp;quot;Description&amp;quot;&amp;gt;
     &amp;lt;meta property=&amp;quot;og:image&amp;quot; content=&amp;quot;https://sun9-35.userapi.com/impg/jiskIOUD3dPjI60BBMmJkEZIc_HMh3EX_dMbbQ/TAYxLfmn970.jpg?size=640x360&amp;amp;quality=96&amp;amp;sign=8db726a8e4d68108d78a345efe66fa10&amp;amp;type=album&amp;quot;&amp;gt;

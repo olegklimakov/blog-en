@@ -847,9 +847,9 @@ table {
 }
 pre {
   font-family: Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace;
+  background: #2d2d2d;
 }
 pre code:not([class]) {
-  padding: 1.5em;
   overflow-x: scroll;
 }
 code,
