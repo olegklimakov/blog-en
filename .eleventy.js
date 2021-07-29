@@ -75,7 +75,7 @@ module.exports = function (eleventyConfig) {
       output = Math.round(timeInMinutes);
     }
 
-    return `Чтение займет: ${output}` + ' м.' + ``;
+    return `Reading time: ${output}` + ' m.' + ``;
   });
 
   eleventyConfig.addPlugin(localImages, {
