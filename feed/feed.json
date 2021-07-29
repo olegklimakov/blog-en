@@ -2,7 +2,7 @@
   "version": "https://jsonfeed.org/version/1",
   "title": "Klimakov Oleg Blog",
   "home_page_url": "https://klimakov.org",
-  "feed_url": "https://update-me.com/feed/feed.json",
+  "feed_url": "https://klimakov.org/feed/feed.json",
   "description": "Blog about frontend, IT, devices, traveling and about everything",
   "author": {
     "name": "Klimakov Oleg",
