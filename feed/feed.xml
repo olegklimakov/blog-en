@@ -18,15 +18,19 @@
 		<updated>2021-07-26T00:00:00-00:00</updated>
 		<id>https://klimakov.org/how-to-update-preview-in-telegram/</id>
 		<content type="html">
-		  &lt;p&gt;Когда вы делитесь ссылкой в соц сетях на ваш сайт, думаю вы захотите чтобы ссылка подгружала еще и описание и картинку. Это позволит еще до захода на сайт понять краткую информацию о том, что их по этой ссылке ждёт.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://paper-attachments.dropbox.com/s_7B204BE2F04460F624F00D3E5A7703C3103EDB20DEC16C751BFBCD6C59F81001_1627288744420_++2021-07-26++11.38.53.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;Как же сделать чтобы соцсети умели так отображать ваш сайт?&lt;br&gt;
-Для описания вам внутри тега &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt; в html вашей страницы добавить &lt;code&gt;&amp;lt;meta content=&amp;quot;Описание вашего сайта&amp;quot; property=&amp;quot;og:description&amp;quot;&amp;gt;&lt;/code&gt;&lt;br&gt;
-Для картинки &lt;code&gt;&amp;lt;meta content=&amp;quot;ссылка на ваше изображение&amp;quot; property=&amp;quot;og:image&amp;quot;&amp;gt;&lt;/code&gt;&lt;br&gt;
-Для названия сайта &lt;code&gt;&amp;lt;meta content=&amp;quot;Название сайта&amp;quot; property=&amp;quot;og:title&amp;quot;&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;h1 id=&quot;problem-solving&quot;&gt;Problem Solving &lt;a class=&quot;direct-link&quot; href=&quot;#problem-solving&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+		  &lt;h1 id=&quot;website-settings&quot;&gt;Website settings &lt;a class=&quot;direct-link&quot; href=&quot;#website-settings&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;When you share your website in social networks, I guess you want to do it the best way - with description, site title and image (like on the example from facebook). It allows to your visitor to check common information before visiting and be ready that this link is about something serous, and not about cat gifs (unfortunately).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://paper-attachments.dropbox.com/s_91EF3957196186B634A16DEEC8E589063D47D4DC65B0E0C15FA2D525B2C8778A_1627562229354_++2021-07-29++15.36.00.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;How to achieve it? It is not difficult, but you need to update your html file.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;For description. You need to add inside &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt; tag &lt;code&gt;&amp;lt;meta content=&amp;quot;Description for your website&amp;quot; property=&amp;quot;og:description&amp;quot;&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;For image preview &lt;code&gt;&amp;lt;meta content=&amp;quot;link to your image&amp;quot; property=&amp;quot;og:image&amp;quot;&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;For website name &lt;code&gt;&amp;lt;meta content=&amp;quot;Website name&amp;quot; property=&amp;quot;og:title&amp;quot;&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;problem-solving&quot;&gt;Problem solving &lt;a class=&quot;direct-link&quot; href=&quot;#problem-solving&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
 &lt;h2 id=&quot;telegram%3A&quot;&gt;Telegram: &lt;a class=&quot;direct-link&quot; href=&quot;#telegram%3A&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Бывает ситуация что данные в тегах вы добавили или обновили, а превью вашего сайта не изменилось. В такой ситуации &lt;a href=&quot;https://t.me/WebpageBot&quot;&gt;вам поможет бот&lt;/a&gt;. Отправьте ему ссылку на ваш сайт и он обновит все настройки.&lt;/p&gt;
+&lt;p&gt;There are some cases when you changed or add this information, but you still see the old version.&lt;br&gt;
+In that case you need a &lt;a href=&quot;https://t.me/WebpageBot&quot;&gt;special bot&lt;/a&gt;. Just send him a link to your website.&lt;/p&gt;
 
 		</content>
 	</entry>
