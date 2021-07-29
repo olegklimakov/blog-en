@@ -100,6 +100,11 @@ dialog {
   padding: 0;
 }
 
+.nav__right {
+  display: flex;
+  align-items: flex-end;
+}
+
 .home-list-item {
   border-bottom: 5px solid var(--primary);
   border-radius: 5px;
@@ -154,6 +159,7 @@ header aside {
 #nav {
   z-index: 2;
   position: relative;
+  width: 100%;
 }
 
 #reading-progress {
@@ -1082,6 +1088,9 @@ section {
 header label {
   display: block;
 }
+.base-title {
+  text-align: center;
+}
 #menu-toggle:checked ~ a {
   display: block;
   padding: 0.75em 0;
@@ -1157,12 +1166,12 @@ header nav label {
   text-align: right;
 }
 main {
-  min-height: calc(100vh - 485px);
+  min-height: calc(100vh - 200px);
   max-width: 70rem;
   margin: 0 auto;
 }
 .main-home {
-  min-height: calc(100vh - 250px);
+  min-height: calc(100vh - 200px);
 }
 
 footer {
