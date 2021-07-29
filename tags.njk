@@ -15,9 +15,9 @@ eleventyComputed:
   title: Tagged “{{ tag }}”
 permalink: /tags/{{ tag | slug }}/
 ---
-<h3>Результаты поиска по тегу: "{{ tag }}"</h3>
+<h3>Results for tag: "{{ tag }}"</h3>
 
 {% set postslist = collections[ tag ] %}
 {% include "postslist.njk" %}
 
-<p>Вернуться ко <a href="{{ '/tags/' | url }}">всем тэгам</a>.</p>
+<p>Return to <a href="{{ '/tags/' | url }}">all tags</a>.</p>
