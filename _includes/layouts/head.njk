@@ -12,6 +12,7 @@
   <meta name="robots" content="max-snippet:-1, max-image-preview: large, max-video-preview: -1">
   <title>{{ renderData.title or title or metadata.title | escape }}</title>
   <meta property="og:title" content="{{ renderData.title or title or metadata.title | escape  }}">
+  <meta name="yandex-verification" content="ceb1a66b093035d7" />
   {% set desc = renderData.description or description %}
   {% if not desc %}
     {% set desc = content | striptags | truncate(140) %}
