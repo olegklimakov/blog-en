@@ -13,11 +13,11 @@
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://update-me.com/feed/feed.json"
+    "url": "https://klimakov.org/feed/feed.json"
   },
   "author": {
     "name": "Klimakov Oleg",
-    "twitterHandle": "update_me"
+    "twitterHandle": "klimakov_org"
   },
   "publisher": {
     "name": "Publisher name. Update me."

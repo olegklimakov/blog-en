@@ -33,18 +33,18 @@
     {{ content | safe }}
       <h1>🙏🙏🙏</h1>
       <p>
-        Спасибо за прочтение! Если вам понравилась статья, вы можете ею <a href="{{ shareUrl | safe }}" on-click="share">поделиться</a> в вашей любимой социальной сети.
+        Since you've made it this far, <a href="{{ shareUrl | safe }}" on-click="share">sharing</a> this article on your favorite social media network
+        would be highly appreciated 💖! For feedback, please
+        <a href="https://twitter.com/{{ metadata.author.twitterHandle }}" target="_blank" rel="noopener">ping me on Twitter.</a>
       </p>
-      <p>
-        Чтобы узнавать о выходе новых статей, <a  rel="noopener" href="https://t.me/klimakov_blog" target="_blank"> подписывайтесь на телеграм канал </a>
-      </p>
-      {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
+
+    {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
       {%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
       {%- if nextPost or previousPost %}
     <hr>
 
-      {%- if nextPost %}<div>Следующий пост: <a href="{{ nextPost.url | url }}">{{ nextPost.data.title }}</a></div>{% endif %}
-      {%- if previousPost %}<div>Предыдущий: <a href="{{ previousPost.url | url }}">{{ previousPost.data.title }}</a></div>{% endif %}
+      {%- if nextPost %}<div>Next: <a href="{{ nextPost.url | url }}">{{ nextPost.data.title }}</a></div>{% endif %}
+      {%- if previousPost %}<div>Previous: <a href="{{ previousPost.url | url }}">{{ previousPost.data.title }}</a></div>{% endif %}
 
       {%- endif %}
 
