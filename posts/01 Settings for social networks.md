@@ -10,9 +10,9 @@ layout: layouts/post.njk
 permalink: "/how-to-update-preview-in-telegram/"
 image: https://sun9-35.userapi.com/impg/jiskIOUD3dPjI60BBMmJkEZIc_HMh3EX_dMbbQ/TAYxLfmn970.jpg?size=640x360&quality=96&sign=8db726a8e4d68108d78a345efe66fa10&type=album
 ---
-# Website settings
+## Website settings
 
-## Motivation
+### Motivation
 
 It is better to have fancy preview, when somebody will share the link of your website.
 Like this (in Facebook):
@@ -21,7 +21,7 @@ Like this (in Facebook):
 
 
 
-## How to achieve it?
+### How to achieve it?
 
 It is not difficult. You just need to update your index.html file.
 Inside `<head>`:
@@ -43,8 +43,8 @@ Example:
     </html>
 
 
-# Problem solving
-## Telegram:
+## Problem solving
+### Telegram:
 
 There are some cases when you changed or add this information, but you still see the old version.
 In that case you need a [special bot](https://t.me/WebpageBot). Just send it a link to your website.
